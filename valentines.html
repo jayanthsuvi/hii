@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>For Someone Special ❤️</title>
+
+<style>
+body {
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to right, #ff4e50, #ff9a9e);
+    font-family: Arial, sans-serif;
+    text-align: center;
+    color: white;
+}
+
+.container {
+    margin-top: 100px;
+}
+
+h1 {
+    font-size: 32px;
+}
+
+button {
+    padding: 12px 25px;
+    font-size: 18px;
+    border: none;
+    border-radius: 25px;
+    background-color: white;
+    color: #ff4e50;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+button:hover {
+    background-color: #ffe6e6;
+}
+
+.hidden-message {
+    display: none;
+    font-size: 20px;
+    margin-top: 30px;
+}
+</style>
+</head>
+
+<body>
+
+<div class="container">
+    <h1>Happy Valentine's Day ❤️</h1>
+    <p>I made something special just for you 😊</p>
+    
+    <button onclick="showMessage()">Click Here 💌</button>
+    
+    <div class="hidden-message" id="message">
+        You make my world brighter 🌎✨<br>
+        Will you be my Valentine? 💖
+    </div>
+</div>
+
+<script>
+function showMessage() {
+    document.getElementById("message").style.display = "block";
+}
+</script>
+
+</body>
+</html>
